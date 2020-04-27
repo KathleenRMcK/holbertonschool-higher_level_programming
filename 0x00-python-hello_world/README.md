@@ -17,9 +17,15 @@ Names | Description
 8-concat_edges.py | Complete the provided source code to print a quote
 9-easter_egg.py | Python script that prints The Zen of Python
 10-check_cycle.c | C function to check for a cycle in singly linked lists
+*10-main.c* | Main file for project 10
+*10-linked_lists.c* | Linked lists for project 10
 lists.h | Header for project 10
+*cycle* | Compiled file for project 10
 100-write.py | Python script that prints a quote followed by new line
 101-compile | Script that compiles a Python script file
+*main.py* | Main file for project 101
+*main.pyc* | Compiled main file for project 101
+102-magic_calculation.py | Python function that works like given bytecode
 
 ### Authors
 Created by Kathleen R McKiernan for Holberton School NHV
