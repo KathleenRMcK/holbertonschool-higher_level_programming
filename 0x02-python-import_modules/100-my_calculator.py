@@ -5,8 +5,8 @@ if __name__ == "__main__":
 
     if len(sys.argv) == 4:
 
-        first = int(sys.argv[1])
-        second = int(sys.argv[3])
+        a = int(sys.argv[1])
+        b = int(sys.argv[3])
         ops = sys.argv[2]
 
         if ops is "+":
