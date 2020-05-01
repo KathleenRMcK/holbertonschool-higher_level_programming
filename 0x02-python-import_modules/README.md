@@ -18,6 +18,7 @@ Names | Description
 *variable_load_5.py* | Helper function for project 5
 100-my_calculator.py | Usage: ./100-my_calculator.py a operator b
 101-easy_print.py | Prints #pythoniscool with newline in standard output
+*easy_print_helper.py* | Helper function for project 7
 102-magic_calculation.py | Function that works exactly as given bytecode
 103-fast_alphabet.py | Prints uppercase alphabet with new line in three lines
 
