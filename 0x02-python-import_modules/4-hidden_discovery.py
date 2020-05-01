@@ -6,4 +6,3 @@ if __name__ == "__main__":
     for holder in dir(hidden_4):
         if holder[:2] != "__":
             print(holder)
-
