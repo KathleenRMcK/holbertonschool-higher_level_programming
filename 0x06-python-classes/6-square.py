@@ -5,7 +5,7 @@ Define class Square
 
 
 class Square:
-    """square lives here"""
+    """define class Square"""
 
     def __init__(self, size=0):
         """it was born here"""
