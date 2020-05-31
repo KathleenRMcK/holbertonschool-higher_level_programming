@@ -5,19 +5,21 @@ Define class Square
 
 
 class Square:
-    """define class Square"""
+    """
+    define class Square
+    """
 
     def __init__(self, size=0):
-        """it was born here"""
+        """inits square"""
         self.__size = size
         self.position = position
 
     def area(self):
-        """it lived here"""
+        """square area"""
         return (self.__size ** 2)
 
     def my_print(self):
-        """here's it's story"""
+        """print info"""
         if self.__size == 0:
             print("")
         else:
@@ -28,22 +30,22 @@ class Square:
 
     @property
     def position(self):
-        """here's his will"""
+        """square position"""
         return self.__position
 
     @position.setter
-    """here's his address"""
+    """setter of position"""
     self.__position = value
     if not isinstance(value, tuple):
 
     @property
     def size(self):
-        """here's his height and weight"""
+        """size of square"""
         return self.__size
 
     @size.setter
     def size(self, value):
-        """this is a square obit apparently"""
+        """set the size"""
         if type(value) is not int:
             raise TypeError("size must be an integer")
         elif value < 0:
