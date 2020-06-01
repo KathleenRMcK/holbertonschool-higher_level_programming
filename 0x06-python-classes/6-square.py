@@ -6,7 +6,7 @@ Define class Square
 
 class Square:
     """
-    is a Square
+    Represents a Square with __size and __position
     """
 
     def __init__(self, size=0, position=(0, 0)):
