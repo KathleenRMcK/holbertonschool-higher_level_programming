@@ -1,2 +1,2 @@
--- Test comments - show all databases
+-- show all databases
 SHOW databases;
