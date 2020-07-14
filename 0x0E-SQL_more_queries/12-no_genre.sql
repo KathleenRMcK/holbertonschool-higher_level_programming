@@ -1,0 +1,1 @@
+-- Lists all shows without a genre with specifications

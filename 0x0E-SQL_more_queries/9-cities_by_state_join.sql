@@ -1,0 +1,1 @@
+-- Lists all cities contained in database

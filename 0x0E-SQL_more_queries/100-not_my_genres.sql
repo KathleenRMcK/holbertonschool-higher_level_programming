@@ -1,0 +1,1 @@
+-- Script that uses database to list all genres not linked to specific show

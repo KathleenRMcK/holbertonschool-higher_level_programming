@@ -1,0 +1,1 @@
+-- Creates database and table on server with specifications

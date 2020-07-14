@@ -1,0 +1,1 @@
+-- Creates the table on server with description

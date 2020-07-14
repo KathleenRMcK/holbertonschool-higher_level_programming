@@ -1,0 +1,1 @@
+-- List all genres in database by their rating with specifications

@@ -1,0 +1,1 @@
+-- Creates MYSQL user with specifications
