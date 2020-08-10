@@ -13,7 +13,7 @@ if __name__ == '__main__':
                               user=sys.argv[1],
                               passwd=sys.argv[2],
                               db=sys.argv[3])
-    cur_help = db.cursor()
+    cur_help = db_help.cursor()
     cur_help.execute("SELECT cities.name FROM cities JOIN states ON cities.state_id =states.id WHERE states.name = %s ORDER BY cities.id", (sys.argv[4],))
     states = cur_help.fetchall()
     val_help = ""
@@ -24,4 +24,4 @@ if __name__ == '__main__':
             val_help += states[navigate][0]
     print(val_help)
     cur_help.close()
-    db.close()
+    db_help.close()
