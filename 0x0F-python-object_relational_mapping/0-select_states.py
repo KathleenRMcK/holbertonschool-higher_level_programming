@@ -13,10 +13,10 @@ if __name__ == '__main__':
                               user=sys.argv[1],
                               passwd=sys.argv[2],
                               db=sys.argv[3])
-    cur = db.cursor()
-    cur.execute("SELECT * FROM states ORDER BY id asc")
-    states = cur.fetchall()
+    cur_help = db.cursor()
+    cur_help.execute("SELECT * FROM states ORDER BY id asc")
+    states = cur_help.fetchall()
     for navigate in states:
         print(navigate)
-    cur.close()
-    db.close()
+    cur_help.close()
+    db_help.close()
