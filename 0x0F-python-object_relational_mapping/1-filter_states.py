@@ -13,11 +13,11 @@ if __name__ == '__main__':
                               user=sys.argv[1],
                               passwd=sys.argv[2],
                               db=sys.argv[3])
-    cur_help = db.cursor()
+    cur_help = db_help.cursor()
     cur_help.execute("SELECT * FROM states ORDER BY id asc")
     states = cur_help.fetchall()
     for navigate in states:
         if navigate[1][0] == 'N':
             print(navigate)
     cur_help.close()
-    db.close()
+    db_help.close()
