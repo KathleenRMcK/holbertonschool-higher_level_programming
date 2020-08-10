@@ -12,8 +12,8 @@ if __name__ == '__main__':
     import sys
 
     engine_help = create_engine("mysql+mysqldb://{}:{}@localhost/{}".format(sys.argv[1], sys.argv[2], sys.argv[3]))
-    Base.metadata.create_all(bind=engine)
-    Session = sessionmaker(bind=engine)
+    Base.metadata.create_all(bind=engine_help)
+    Session = sessionmaker(bind=engine_help)
     session_help = Session()
     states = session.query(State).order_by(State.id)
     for state in states:
