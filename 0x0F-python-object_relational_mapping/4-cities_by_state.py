@@ -14,7 +14,7 @@ if __name__ == '__main__':
                               passwd=sys.argv[2],
                               db=sys.argv[3],)
     cur_help = db_help.cursor()
-    cur_help.execute("SELECT cities.id, cities.name, states.name FROM cities INNER JOIN states ON state_id = cities.state.id ORDER BY id asc")
+    cur_help.execute("SELECT cities.id, cities.name, states.name FROM cities JOIN states ON cities.state_id = state.id ORDER BY id asc")
     states = cur_help.fetchall()
     for navigate in states:
         print(navigate)
