@@ -11,9 +11,9 @@ if __name__ == '__main__':
     from sqlalchemy.orm import sessionmaker
     import sys
 
-    engine_help = create_engine("mysql+mysqldb://{}:{}@localhost/{}".format(sys.argv[1], sys.argv[2], sys.argv[3]))
-    Base.metadata.create_all(bind=engine_help)
-    Session = sessionmaker(bind=engine_help)
+    engine = create_engine("mysql+mysqldb://{}:{}@localhost/{}".format(sys.argv[1], sys.argv[2], sys.argv[3]))
+    Base.metadata.create_all(bind=engine)
+    Session = sessionmaker(bind=engine)
     session_help = Session()
     states = session.query(State).first()
     if states:
