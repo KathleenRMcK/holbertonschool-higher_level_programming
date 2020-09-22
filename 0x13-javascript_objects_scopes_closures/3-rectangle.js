@@ -9,10 +9,11 @@ module.exports = class Rectangle {
       this.height = h;
     }
   }
+
   print () {
     let help = 0;
     for (help; help < this.height; help++) {
-        console.log('X'.repeat(this.width));
+      console.log('X'.repeat(this.width));
     }
   }
 };
