@@ -5,7 +5,6 @@ exports.nbOccurences = function (list, searchElement)
     if (num === searchElement) {
       help++;
     }
-  }
-  );
+  });
   return help;
 };
