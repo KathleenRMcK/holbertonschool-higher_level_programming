@@ -1,4 +1,5 @@
 #!/usr/bin/node
+// comments check
 exports.esrever = function (list) {
   const rev_help = [];
   list.forEach(elem => {
